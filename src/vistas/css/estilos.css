@@ -1,0 +1,58 @@
+
+.logo{
+border-radius: 58px;
+
+}
+.blanco{
+    color: rgb(255, 255, 255);
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+}
+body{
+    background-image: url(../IMG/Fondo.jpg);
+}
+.verde{
+color: rgb(194, 243, 201);
+}
+.enca{
+    display: inline;
+    
+}
+.barra{
+    background:rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: flex;
+    margin-right: 20px;
+
+}
+.titulo{
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+}
+nav, .as{
+    color: white;
+    text-decoration: none;
+    float:right;
+    padding: 8px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+
+}
+.amarillo{
+    color: yellow;
+}
+@media(min-width:360px){
+    .titulo{
+    padding: 2px;
+    margin-left: 10px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    }
+}
+
